@@ -13,7 +13,7 @@ jobs:
           Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
           Expand-Archive ngrok.zip -DestinationPath $PWD
           $env:PATH += ";$PWD"
-          ./ngrok.exe authtoken 1wxcjIuIz0Gli3V2BnKZkGvtCLZ_ggoX9jkDSbXrwpDrG8yN
+          ./ngrok.exe authtoken 2ytU0dNr6mYdUXY7zDXczThnGBF_6d7mre7R8YFLkdPKDUtq5
 
       - name: Enable RDP
         shell: powershell
